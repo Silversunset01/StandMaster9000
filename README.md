@@ -1,5 +1,5 @@
 # StandMaster9000
-Bukkit plugin to allow in-game editing of armor stand data.
+Bukkit plugin to allow in-game editing of armor stand data. Tested up to Minecraft version **1.16.1** (Java)
 
 ## Usage
 This plugin works by allowing players to make *modifications* to armor stand data through commands. Each modification changes a particular aspect of an armor stand; after you have made the modifications you want, the next armor stand you place will have the specified modifications. Your current modification list can be viewed with "/stand list", or cleared with "/stand clear".
@@ -22,7 +22,7 @@ Player presets work like global presets, except that they are local to the playe
 
 **FLOAT**: A floating-point (decimal) value. Examples: 0, 3.14159, -0.0833
 
-**STRING** A string of characters, or normal text. Examples: "Dumbo52", "StandMaster9000", "Hello world!" (without the quotes)
+**STRING** A string of characters, or normal text. Examples: "Bob", "This is a stand", "Hello world!" (without the quotes)
 
 **ROTATION** A group of three floats, representing rotations (in degrees) around the X, Y, and Z axes respectively. Alternatively, a rotation along a single axis while leaving the other components unchanged can be achieved with "\<axis\> \<FLOAT\>". Examples: "90 0 180", "-45, 22.5, 270", "y 45.0"
 
