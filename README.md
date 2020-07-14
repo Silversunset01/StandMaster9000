@@ -52,3 +52,4 @@ Help for any command can be accessed by just typing "/stand".
 | /stand pose head \<ROTATION\>       | standmaster.stand.pose          | Sets the stand's head rotation            |
 | /stand showarms \<BOOLEAN\>         | standmaster.stand.showarms      | Shows arms on the stand                   |
 | /stand small \<BOOLEAN\>            | standmaster.stand.small         | Makes the stand smaller                   |
+| /stand removeinvisible\<radius\>    | standmaster.removeinvisible     | Removes invisible stands within \<radius\>|
